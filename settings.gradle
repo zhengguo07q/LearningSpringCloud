@@ -1,0 +1,5 @@
+rootProject.name = 'LearningSpringCloud'
+include 'ServerDiscovery'
+include 'ServerDiscovery:Eureka'
+findProject(':ServerDiscovery:Eureka')?.name = 'Eureka'
+
